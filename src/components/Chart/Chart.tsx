@@ -15,7 +15,7 @@ export default function Chart({
   children,
   ...otherProps
 }: ChartProps): JSX.Element {
-  const { source, ...chartParams } = otherProps;
+  const { source, scale, ...chartParams } = otherProps;
   const ref = useRef<HTMLCanvasElement>();
   const [chart, setChart] = useState<F2.Chart>();
 
@@ -25,14 +25,29 @@ export default function Chart({
         el: ref.current,
         ...chartParams
       });
-      source && chartInstance.source(source);
-      chartInstance.interval().position("genre*sold").color("genre");
-      chartInstance.render();
       setChart(chartInstance);
     }
   };
 
-  useEffect(execCreateChart, [chart, chartParams, source]);
+  useEffect(execCreateChart, [chart, chartParams]);
+
+  useEffect(() => {
+    if (source) {
+      chart?.source(source);
+    }
+  }, [chart]);
+
+  useEffect(() => {
+    if (scale) {
+      chart?.scale(scale);
+    }
+  }, [chart]);
+
+  useEffect(() => {
+    chart?.render();
+  }, [chart]);
+
+  // chartInstance.interval().position("genre*sold").color("genre");
 
   return (
     <canvas className={className} ref={ref}>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Chart, Geometry } from "react-f2";
+import { Chart, Geometry, Axis } from "react-f2";
 import "./App.css";
 
 function App(): JSX.Element {
@@ -17,6 +17,7 @@ function App(): JSX.Element {
         <Chart source={data}>
           <Geometry type="interval" />
           <Geometry type="line" />
+          <Axis />
         </Chart>
       </header>
     </div>

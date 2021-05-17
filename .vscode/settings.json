@@ -1,5 +1,7 @@
 {
   "cSpell.words": [
-    "antvis"
-  ]
+    "antvis",
+    "immer"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
 }

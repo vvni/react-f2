@@ -8,8 +8,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "prepare": "husky install",
-    "dev": "tsup src/index.ts --dts --format esm,cjs,iife --legacy-output --watch",
-    "build": "tsup src/index.ts --dts --format esm,cjs,iife --legacy-output --env.NODE_ENV production --minify"
+    "dev": "tsup --watch",
+    "build": "tsup --env.NODE_ENV production --minify"
   },
   "commitlint": {
     "extends": [
@@ -24,13 +24,12 @@
     "@antv/f2": "3.8.8",
     "immer": "9.0.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "use-immer": "0.5.2"
   },
   "devDependencies": {
     "@commitlint/cli": "12.1.4",
     "@commitlint/config-conventional": "12.1.4",
     "@types/react": "17.0.5",
-    "@types/react-dom": "17.0.5",
     "@typescript-eslint/eslint-plugin": "4.23.0",
     "@typescript-eslint/parser": "4.23.0",
     "eslint": "7.26.0",
@@ -46,7 +45,6 @@
   },
   "peerDependencies": {
     "@antv/f2": ">=3.0.0",
-    "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
+    "react": ">=16.8.0"
   }
 }
