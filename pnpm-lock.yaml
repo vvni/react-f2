@@ -4,7 +4,7 @@ specifiers:
   '@antv/f2': 3.8.8
   '@commitlint/cli': 12.1.4
   '@commitlint/config-conventional': 12.1.4
-  '@types/react': 17.0.5
+  '@types/react': 17.0.8
   '@typescript-eslint/eslint-plugin': 4.24.0
   '@typescript-eslint/parser': 4.24.0
   eslint: 7.27.0
@@ -30,7 +30,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 12.1.4
   '@commitlint/config-conventional': 12.1.4
-  '@types/react': 17.0.5
+  '@types/react': 17.0.8
   '@typescript-eslint/eslint-plugin': 4.24.0_793776cb10ece467d2ef6de95ba4fe34
   '@typescript-eslint/parser': 4.24.0_eslint@7.27.0+typescript@4.2.4
   eslint: 7.27.0
@@ -333,8 +333,8 @@ packages:
     resolution: {integrity: sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==}
     dev: true
 
-  /@types/react/17.0.5:
-    resolution: {integrity: sha512-bj4biDB9ZJmGAYTWSKJly6bMr4BLUiBrx9ujiJEoP9XIDY9CTaPGxE5QWN/1WjpPLzYF7/jRNnV2nNxNe970sw==}
+  /@types/react/17.0.8:
+    resolution: {integrity: sha512-3sx4c0PbXujrYAKwXxNONXUtRp9C+hE2di0IuxFyf5BELD+B+AXL8G7QrmSKhVwKZDbv0igiAjQAMhXj8Yg3aw==}
     dependencies:
       '@types/prop-types': 15.7.3
       '@types/scheduler': 0.16.1
