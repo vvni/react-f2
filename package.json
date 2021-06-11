@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@antv/f2": "3.8.8",
-    "immer": "9.0.2",
+    "immer": "9.0.3",
     "react": "17.0.2",
     "use-immer": "0.5.2"
   },
