@@ -12,7 +12,7 @@ specifiers:
   eslint-plugin-react: 7.24.0
   eslint-plugin-react-hooks: 4.2.0
   husky: 6.0.0
-  immer: 9.0.2
+  immer: 9.0.3
   lint-staged: 11.0.0
   prettier: 2.3.1
   react: 17.0.2
@@ -23,9 +23,9 @@ specifiers:
 
 dependencies:
   '@antv/f2': 3.8.8
-  immer: 9.0.2
+  immer: 9.0.3
   react: 17.0.2
-  use-immer: 0.5.2_immer@9.0.2+react@17.0.2
+  use-immer: 0.5.2_immer@9.0.3+react@17.0.2
 
 devDependencies:
   '@commitlint/cli': 12.1.4
@@ -1456,8 +1456,8 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
-  /immer/9.0.2:
-    resolution: {integrity: sha512-mkcmzLtIfSp40vAqteRr1MbWNSoI7JE+/PB36FNPoSfJ9RQRmNKuTYCjKkyXyuq3Dgn07HuJBrwJd4ZSk2yUbw==}
+  /immer/9.0.3:
+    resolution: {integrity: sha512-mONgeNSMuyjIe0lkQPa9YhdmTv8P19IeHV0biYhcXhbd5dhdB9HSK93zBpyKjp6wersSUgT5QyU0skmejUVP2A==}
     dev: false
 
   /import-cwd/3.0.0:
@@ -2726,13 +2726,13 @@ packages:
       punycode: 2.1.1
     dev: true
 
-  /use-immer/0.5.2_immer@9.0.2+react@17.0.2:
+  /use-immer/0.5.2_immer@9.0.3+react@17.0.2:
     resolution: {integrity: sha512-aHnLa85kftWo05lqJVOy3GLXrydqu6kl0MXvo5k5OW8IoLJixa9NY/48Xdy0LlcqdakBTFLbSDZaYVPMVhYy8Q==}
     peerDependencies:
       immer: '>=2.0.0'
       react: ^16.8.0 || ^17.0.1
     dependencies:
-      immer: 9.0.2
+      immer: 9.0.3
       react: 17.0.2
     dev: false
 
