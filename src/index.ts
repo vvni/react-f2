@@ -1,3 +1,5 @@
-export * from "./components/Chart";
-export * from "./components/Geometry";
-export * from "./components/Axis";
+import Chart from "./components/Chart";
+import Geometry from "./components/Geometry";
+import Axis from "./components/Axis";
+
+export { Chart, Geometry, Axis };

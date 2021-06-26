@@ -1,5 +1,5 @@
 import React from "react";
-import { Chart, Geometry, Axis } from "react-f2";
+import { Chart, Geometry, Axis } from "../src";
 import "./App.css";
 
 function App(): JSX.Element {
@@ -8,7 +8,7 @@ function App(): JSX.Element {
     { genre: "Strategy", sold: 115 },
     { genre: "Action", sold: 120 },
     { genre: "Shooter", sold: 350 },
-    { genre: "Other", sold: 150 }
+    { genre: "Other", sold: 150 },
   ];
 
   return (

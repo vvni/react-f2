@@ -69,7 +69,7 @@ export interface GeometryProps extends GeometryParams {
 }
 
 export default function Geometry({
-  type,
+  type = "interval",
   ...geometryParams
 }: GeometryProps): JSX.Element {
   const defaultGp: GeometryParams = {
@@ -81,7 +81,3 @@ export default function Geometry({
 
   return <></>;
 }
-
-Geometry.defaultProps = {
-  type: "interval"
-};
