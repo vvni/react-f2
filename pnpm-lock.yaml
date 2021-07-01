@@ -21,7 +21,7 @@ specifiers:
   sort-package-json: 1.50.0
   typescript: 4.3.5
   vite: 2.3.8
-  vite-plugin-dts: 0.5.1
+  vite-plugin-dts: 0.5.2
   vite-react-jsx: 1.1.1
   vite-tsconfig-paths: 3.3.13
 
@@ -48,7 +48,7 @@ devDependencies:
   sort-package-json: 1.50.0
   typescript: 4.3.5
   vite: 2.3.8
-  vite-plugin-dts: 0.5.1_vite@2.3.8
+  vite-plugin-dts: 0.5.2_vite@2.3.8
   vite-react-jsx: 1.1.1_vite@2.3.8
   vite-tsconfig-paths: 3.3.13_vite@2.3.8
 
@@ -2194,7 +2194,7 @@ packages:
     engines: {node: '>=8.6'}
     dependencies:
       braces: 3.0.2
-      picomatch: 2.2.3
+      picomatch: 2.3.0
     dev: true
 
   /mimic-fn/2.1.0:
@@ -2444,11 +2444,6 @@ packages:
   /path-type/4.0.0:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
-    dev: true
-
-  /picomatch/2.2.3:
-    resolution: {integrity: sha512-KpELjfwcCDUb9PeigTs2mBJzXUPzAuP2oPcA989He8Rte0+YUAjw1JVedDhuTKPkHjSYzMN3npC9luThGYEKdg==}
-    engines: {node: '>=8.6'}
     dev: true
 
   /picomatch/2.3.0:
@@ -3092,8 +3087,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-dts/0.5.1_vite@2.3.8:
-    resolution: {integrity: sha512-MSGM8SFTYkBhakQlfthtllS4eOxsHfvthK6wIUk0HPj65PYmam6LRRMGI/52c/zXIddi40gKGA+7u9WpS0VQ9g==}
+  /vite-plugin-dts/0.5.2_vite@2.3.8:
+    resolution: {integrity: sha512-j+KJ0JCxqZnh5ir66H+VUvp/VQHBiN07/hGmGBT6eEmwGwqeTcuKpc+ZYJCWsPWFlUy6lvZdiXeZDo0033VxeQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: '>=2.3.7'
