@@ -4,7 +4,7 @@ specifiers:
   '@antv/f2': 3.8.9
   '@commitlint/cli': 12.1.4
   '@commitlint/config-conventional': 12.1.4
-  '@types/react': 17.0.11
+  '@types/react': 17.0.14
   '@types/react-dom': 17.0.8
   '@typescript-eslint/eslint-plugin': 4.28.0
   '@typescript-eslint/parser': 4.28.0
@@ -33,7 +33,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 12.1.4
   '@commitlint/config-conventional': 12.1.4
-  '@types/react': 17.0.11
+  '@types/react': 17.0.14
   '@types/react-dom': 17.0.8
   '@typescript-eslint/eslint-plugin': 4.28.0_4ec1e0eca7c6e4115e1e7a13008fdec2
   '@typescript-eslint/parser': 4.28.0_eslint@7.29.0+typescript@4.3.4
@@ -645,6 +645,14 @@ packages:
 
   /@types/react/17.0.11:
     resolution: {integrity: sha512-yFRQbD+whVonItSk7ZzP/L+gPTJVBkL/7shLEF+i9GC/1cV3JmUxEQz6+9ylhUpWSDuqo1N9qEvqS6vTj4USUA==}
+    dependencies:
+      '@types/prop-types': 15.7.3
+      '@types/scheduler': 0.16.1
+      csstype: 3.0.8
+    dev: true
+
+  /@types/react/17.0.14:
+    resolution: {integrity: sha512-0WwKHUbWuQWOce61UexYuWTGuGY/8JvtUe/dtQ6lR4sZ3UiylHotJeWpf3ArP9+DSGUoLY3wbU59VyMrJps5VQ==}
     dependencies:
       '@types/prop-types': 15.7.3
       '@types/scheduler': 0.16.1
