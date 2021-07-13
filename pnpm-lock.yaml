@@ -22,7 +22,7 @@ specifiers:
   typescript: 4.3.5
   vite: 2.4.2
   vite-plugin-dts: 0.5.2
-  vite-react-jsx: 1.1.1
+  vite-react-jsx: 1.1.2
   vite-tsconfig-paths: 3.3.13
 
 dependencies:
@@ -49,7 +49,7 @@ devDependencies:
   typescript: 4.3.5
   vite: 2.4.2
   vite-plugin-dts: 0.5.2_vite@2.4.2
-  vite-react-jsx: 1.1.1_vite@2.4.2
+  vite-react-jsx: 1.1.2_vite@2.4.2
   vite-tsconfig-paths: 3.3.13_vite@2.4.2
 
 packages:
@@ -3124,8 +3124,8 @@ packages:
       vite: 2.4.2
     dev: true
 
-  /vite-react-jsx/1.1.1_vite@2.4.2:
-    resolution: {integrity: sha512-QUu8bODTfyrGYAHzL0MyLwRf5G29f8f9kmPymOykE6eU3rrbv6Uga+7RmZTY7wqycqY6RyQieLTutbgPK1a7pw==}
+  /vite-react-jsx/1.1.2_vite@2.4.2:
+    resolution: {integrity: sha512-cv0kcBnr8pRZWreLhCIl0/wSnm6lwUc61kPYqGoVQLl4D2JdDMLMMWgKHDpFLc95l3U1pTX8lTVXq2KdeBE9IA==}
     peerDependencies:
       vite: '>2.0.0-0'
     dependencies:
